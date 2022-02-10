@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekster Application Form</title>
+</head>
+<style>
+    
+		form{
+			font-family: sans-serif;
+			margin: auto;
+            width: 60%; 
+            height: 100px;
+		}
+		span1{
+			color: #287c07;
+		}
+		h1{
+			text-align: center;
+		}
+		input[type=text]{
+			padding: 15px;
+			width:250px;
+		}
+		input[type=email]{
+			padding: 15px;
+			width:250px;
+		}
+		input[type=phone]{
+			padding: 15px;
+			width:250px;
+		}
+		input[type=submit]{
+			padding: 7px;
+			width:130px;
+			font-size: 20px;
+			background-color: #40d11c;
+			margin-right: 20px;
+			border: none;
+		}
+		label{
+			position: absolute;
+			margin-bottom: 50px;
+			margin-left: 40px;
+			font-size: 17px;
+		}
+		input{
+			margin-top: 20px;
+			border-radius: 10px;
+			margin-left: 40px;
+			font-size: 14px;
+		}
+		select{
+			border-radius: 10px;
+			padding: 15px;
+			width: 40%;
+			margin-top: 20px;
+			margin-left: 40px;
+			font-size: 14px;
+		}
+</style>
+<body>
+    <form action>
+        <h1>
+            <span1>Application</span1>
+            <span2>Form</span2>
+        </h1>
+        <br />
+        <br />
+        <br />
+        <label for="Full Name">Full Name*</label>
+        <input type="text" placeholder="Enter Full Name" name="full name" required>
+        <label for="Email">Email*</label>
+        <input type="email" placeholder="Enter email" name="email" required>
+        <br />
+        <br />
+        <br />
+        <label for="Select Course">Select Course*</label>
+        <select name="Course" id="Course" required>
+            <option value="1" disabled selected>Select Course</option>
+            <option value="2">Full Stack Web Development</option>
+            <option value="3">Advance Web Development</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <label for="phone">Phone*</label>
+        <input type="phone" placeholder="Enter mobile number" name="phone" minlength="10" maxlength="10"
+            required>
+        <label for="Qualification">Highest Degree*</label>
+        <select name="Select  Degree" required>
+            <option value="1" disabled selected>Select Highest degree</option>
+            <option value="2">B.E or B.Tech CS/IT</option>
+            <option value="3">B.E or B.Tech Other</option>
+            <option value="4">M.S or M.Tech CS/IT</option>
+            <option value="5">M.S or M.Tech Other</option>
+            <option value="6">BCA</option>
+            <option value="7">MCA</option>
+            <option value="8">Others</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <label for="Year of Completion">Year of Completion*</label>
+        <select name="Year of Completion" required>
+            <option value="1" disabled selected>Select year of completion</option>
+            <option value="2">2018</option>
+            <option value="3">2019</option>
+            <option value="4">2020</option>
+            <option value="5">2021</option>
+            <option value="6">2022</option>
+            <option value="7">2023</option>
+        </select>
+
+        <label for="Programming Skilss">Programming Skills*</label>
+        <select name="Programming Skills" required>
+            <option value="1">No coding skills</option>
+            <option value="2">Basic coding skills</option>
+            <option value="3">Intermediate coding skills</option>
+            <option value="4">Good coding skills</option>
+        </select>
+        <br />
+        <br />
+        <br />
+        <input type="checkbox" name="checkbox" required>
+        By signing up, you agree to the Terms and Conditions of Geekster
+        (QuantumBit technologies Pvt.Ltd)*.
+        <br />
+        <br />
+        <br />
+        <input type="submit">
+    </form>
+</body>
+
+</html>
