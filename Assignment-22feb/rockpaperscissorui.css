@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(66, 226, 178);
+}
+*{
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(136, 6, 97);
+    font-weight: bold;
+}
+.content {
+    display: inline;
+}
+.your_pick{
+    float: left;
+    margin-left: 100px;
+}
+.yourscore {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(125, 21, 230);
+    font-weight: bold;
+}
+img{
+    padding: 10px;
+}
+.takeup_text{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(126, 1, 1);
+    font-weight: bold;
+}
+.oponent_pick{
+    float: right;
+    margin-right: 100px;
+}
+.oponentscore {
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+    color: rgb(125, 21, 230);
+    font-weight: bold;
+}
+.opp_pickup {
+    padding: 10px;
+    padding-left: 180px;
+}
+.opponent_text{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(126, 1, 1);
+    font-weight: bold;
+}
+.footer {
+    padding-top: 500px;
+}
+.homepage_content {
+    font-size: 20px;
+    text-align: center;
+}
