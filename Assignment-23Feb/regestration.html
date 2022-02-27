@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <span class="heading">Getting Started</span>
+            <br>
+            <div class="details">
+                <div class="enter-details">
+                    <span class="input-details">Full Name</span><br><br>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                <div class="enter-details">
+                    <span class="input-details">Email-ID</span><br><br>
+                    <input type="email" placeholder="Enter Your Email-ID" required>
+                </div>
+                <div class="enter-details">
+                    <span class="input-details">Mobile Number</span><br><br>
+                    <input type="text" placeholder="Enter Mobile Number" id="number" maxlength="10" required>
+                </div>
+                <div class="enter-details">
+                    <span class="input-details">Birth Date</span><br><br>
+                    <input type="text" placeholder="DD/MM/YYYY" type="date" id="date" required>
+                </div>
+                <div class="enter-details">
+                    <span class="input-details">Create Password</span><br><br>
+                    <input type="text" placeholder="Enter Your Password" required>
+                </div>
+                <div class="enter-details">
+                    <span class="input-details">Cofirm Password</span><br><br>
+                    <input type="text" placeholder="Confirm Your Password" required>
+                </div>
+                <span class="title-gender">Gender</span>
+                <div class="type">
+                    <label for="male">
+                        <input type="radio" name="gender" id="opt-1">
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="gender" id="opt-2">
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="other">
+                        <input type="radio" name="gender" id="opt-3">
+                        <span class="gender">Other</span>
+                    </label>
+                </div>
+                <br>
+                <br>
+            </div>
+            <input type="checkbox"> I have read and agree to the <a href="#">terms of service.</a>
+            <br>
+            <br>
+            <br>
+            <input class="button" type="button" value="&nbsp; Create an Account &nbsp;" style="font-size: 20px;">
+        </form>
+        <br>
+        <br>
+        <a class="login_link" href="./login.html">Already have an account</a>
+
+    </div>
+</body>
+
+</html>
