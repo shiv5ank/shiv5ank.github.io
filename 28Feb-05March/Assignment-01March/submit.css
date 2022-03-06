@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(250, 200, 126);
+}
+
+form{
+        display: block;
+        width: 400px;
+        margin:150px  auto;
+        padding: 10px;
+        padding-left: 60px;
+        padding-bottom: 25px;
+        background-color: rgb(138, 230, 199);
+}
+h1{
+    color: darkmagenta;
+}
+p{
+    font-size: 15px;
+    margin: 15px 0;
+    display: inline-block;
+    color:rgb(247, 3, 3);
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    margin: 5px;
+}
+input[type=password]
+{
+    font-size: 20px;
+}
+input[type=email]{
+    font-size:  20px;
+}
+input[type=button]
+{
+    font-size: 20px;
+    background-color: rgb(147, 252, 121);
+}
