@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background-color: rgb(85, 15, 15);
+}
+h1 {
+    text-align: center;
+    border-top: 80%;
+    font-family: cursive;
+}
+.container {
+    margin-top: 100px;
+    background-color: rgb(193, 243, 226);
+    padding-bottom: 90px;
+}
+.container-head {
+    text-align: center;
+}
+button {
+    background-color: grey;
+    color: blue;
+}
+ul {
+    padding-top: 8px;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    color: rgb(0, 71, 6); 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkseagreen;
+ }
